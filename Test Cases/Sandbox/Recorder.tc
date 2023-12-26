@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Recorder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88d10cac-d5df-4b74-bacf-212fd1f5124e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a17391ac-912c-4982-ae37-388ed44935ee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a17391ac-912c-4982-ae37-388ed44935ee</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_PRINT-SERVERLexmark-room</name>
+   <tag></tag>
+   <elementGuidId>c303f596-88b5-4385-ad2c-3fada52d9d24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='lstScreen']/tbody/tr[3]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.gridHover > td:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>9f425371-041a-4c10-875e-a78311756999</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>\PRINT-SERVER\Lexmark-room</value>
+      <webElementGuid>afb259af-4f08-4b1f-b626-2fcdd8262dc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lstScreen&quot;)/tbody[1]/tr[@class=&quot;gridHover&quot;]/td[2]</value>
+      <webElementGuid>215d0600-8705-4c31-b6f2-b6f0d1418c56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='lstScreen']/tbody/tr[3]/td[2]</value>
+      <webElementGuid>0052766c-ba64-4f8b-9909-226067120a36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[2]</value>
+      <webElementGuid>c3f8ff38-4cbd-46e6-8ce5-18d85adbe6a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '\PRINT-SERVER\Lexmark-room' or . = '\PRINT-SERVER\Lexmark-room')]</value>
+      <webElementGuid>341b04c3-1046-48c6-aec5-f74375a05192</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

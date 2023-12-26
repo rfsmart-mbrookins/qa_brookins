@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_LB76202</name>
+   <tag></tag>
+   <elementGuidId>74556b5d-4e63-4a0d-8bea-e7dfd44ac791</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='lstScreen']/tbody/tr[2]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.gridHover > td:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>4548db5c-0d5b-45b8-81ba-1fd2227eeb67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LB76202</value>
+      <webElementGuid>0e13c706-0fdf-446f-9ad3-3b15966e59fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lstScreen&quot;)/tbody[1]/tr[@class=&quot;gridHover&quot;]/td[2]</value>
+      <webElementGuid>76feaa5b-17e5-457b-8fab-3c1b08095c26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='lstScreen']/tbody/tr[2]/td[2]</value>
+      <webElementGuid>ed9cff6b-cb88-4c80-bd1a-b3d32d3e6d01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>d721327f-8d78-4506-b5fa-c807e39baba1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'LB76202' or . = 'LB76202')]</value>
+      <webElementGuid>ead2adb1-7ff3-41b4-ad03-3b36ce5b3dd8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

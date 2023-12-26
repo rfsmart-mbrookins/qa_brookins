@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_AddPOLine</name>
+   <tag></tag>
+   <elementGuidId>2e37b00d-ad60-4d52-a50c-ab605f0718be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#_FOpt1\:_FOr1\:0\:_FONSr2\:0\:MAt2\:0\:AP1\:AT1\:_ATp\:create</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

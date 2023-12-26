@@ -1,0 +1,132 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://ebmm-test.login.us2.oraclecloud.com/oam/server/obrareq.cgi?encquery%3DU6TMZL3nl2oKDz2uMWmpfbJnjaCFhyfsmvyRQdvotzDdS7IC2e7KdzzJzMp47J5TLfw9o1dUB9pgKxEZstYevij%2FsX4dDN+eFmuyoaoOGBFbb32sC4CQP6IpCcv%2FsgrprNCEQ2mQ8B2IeZHhpO6z7MSuiD%2F0g%2Fe54u6gkIczhq%2F89hOL+TqDPvmuM6YDVESWMbcqVj2ZN4YfwccwHuUSx7aV3gUeNGKkUaKzWFHkhAFzXgHQ2sFWBcQSDZZkrSBwHhZj4JyQMmmfpHi1aTFkfvzFkUhQQ8IfOZzqh1q3gbJteaVzP6q8dpNE2Zpv+xDHGZ6ZqPzfAhFUFnE7bWQGO1blpn0pLWEtOn5EnbTsUs023mWJgD7SWb2RCD+zJo9uC7o3XmvziPYT+cCHn%2FzTil24Oyi5aL4zdJ7Bm+Enf5sibXmYNsnwGshMuqZLXYIgQmV29SnAXHEiMEMNmLUZwbse6EqvVwmb0jyi1jnzapY2uEvWZqEjpl4wguyTAQZBtVAeJejqNvZQSsZ2V1zSX%2FleIKq9un1AAzoZLc2gNA528sWGfxSmhZ6zdOS4yq3Z9XUgt9A26rxzQe5RBpVOmtgdPKxGPv+FNjXrYkEtyN9SJ2h5%2Fby%2FOY5u2qQOE1V0TciuJAX9mQ7IIoFkigTP2zSUhXWAhzPjFn63btBMyRtpIrMra6YSZRfOFluBkKlp3abM%2FfxloSNODsW4okprRdFLLIwgmx2AvEqqsgGNHB7Q3iFYvd4qMVLr47osscdwE18uHglsG3XKJ+hsSBeWqtsQ2YH+2x+aJiSpa+QypqDYdC%2FJ7FByhiZxzCGzsK7Sq5ZhVMKhAdOIDPl1i9Mqic4zwBhwBx8FbuqNWVNGT+bmHHr33VbknKJuUAmEfdP3DL2ncSV+adurQxY9lvTmRLYGJtCy8qXXTMNc0aiPAvdwA44zv8w6Dktj%2FBA7v7E+gCCmHDYxbhTaRK%2FHE6U3l27oa8m+QIM0Cj0ECdbK8EFPaY5IhdkCWEUKex61HwYUDNBXg83+4z7ovD1If4KR7Vuq2ppuorUFCEXl7UrCv0MAugxhfQ%2F5c%2F7enPtmrMBsgvr8Z4mQrxadFod2dhWEkxjUMeBywIvMFPa21wRFSSwENW6AApVBw1aSWuQxG2ONTvYmS96YCzhKvwkyVAtTPlk6kVwAS1QXmqB7aV8G7zEN6yRny6SARIeBfAbJ0S2rsqiYeaXU0KeSALY1QccBptEZn%2F+iEWRjwwPB+5yCuvp5p23eOML9q+o+qJU8FX2TT1ytqYbkU7v6pch4QaWzxBItuKhu4zbjgX8aRYASzShEbsUcwF8DIQrIDp51TqNARZFyggYNf8dCapfQTf9bwgaCNqpVsRNhP9D2tK6fPNWj6RP7KsmPc3fD4PpxcSaZyyLw62lh2obv8jTgsJAErDyYE5mTSgKTu%2Fit1Z1TpBVUD3uMQvBgG4S7H1N+dbdAo+J9Xggnx81oR%2F03V901HM3b1LNvEM0QXSYF1yin0vBGAzTBMoG7uo533z+NNHX5WRMauO+I9b%2FKL7kccJUvQl1TuCjPZjt%2FphfNrauEwFFAg46xYdykMi13lN9cbdQEk1NBFdwdf7Q98fpEXyNm+lnp+oZ24TUINzn+eq8avABfMg0%2Fah9RvEjjNF0LFd9b%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Dcffcf0840bc082aa571a9d95588fc797bef5cdc8&ECID-Context=1.0063Mf_bnbG8lnTLqAS4yY0007uS0000db%3BkXjE')
+
+WebUI.setText(findTestObject('Page_Sign In/input_userid'), 'dev.one')
+
+WebUI.setEncryptedText(findTestObject('Page_Sign In/input_password'), 'UAHdl0l4+Bq3CwnfK3WMeA==')
+
+WebUI.click(findTestObject('Page_Sign In/button_Sign In'))
+
+WebUI.click(findTestObject('Object Repository/OracleObjects/path_svg-outline (1)'))
+
+WebUI.click(findTestObject('Object Repository/OracleObjects/div_Procurement'))
+
+WebUI.click(findTestObject('Object Repository/OracleObjects/span_PurchaseOrders'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://ebmm-test.login.us2.oraclecloud.com/oam/server/obrareq.cgi?encquery%3D7hbJc0fC%2FeQbMOeeLT7wEB5a%2FKzEqb6Q9LWSuBlipBwbTEgdoU4s92Njrit714N5EVeNiXEAlodiDeAPo5D53bqbxxC7WQ4whYDEWXPRosuz2mQRwX3kfNG0L58NnSMAOcrj0MvWy2OIFPfGaSDfToi6svcF4tLrPq69uTQxGBn7KIgHiwUQbQWNF9A3nPcFqnwdlwmz%2F5c%2F5e9bbHnxVmPmElaqYjxlP1UMLk3e7REXVMXWVmAulF4hvoyUzOR46sbyAMFrfmKQQ8O+Vx3veMKZtyUNT04Lp1aIG0UQXGaYPQX5LCj71YBZttcS%2FWfJeS9uf%2Fn2J3DpP2nSmlOLAhWcHM8Ga+nvXC5y3ziWpYPBenD6nxpRnXCloz6TqPYqRIzKdTkhl9rR0i0ZuUiG3czaaZIpv9lcgY9q47TW0YGV4KeowZoQPkK9BpPgEEfCmXTuvDfq%2Fw4nTTyXidbU%2F05BDfB0XxTuL1XlrAO31LEpSKA6zToPzR1%2FejMbAWGDfozS7RGiLS4ryJ1wh%2Fqh+ceL9pPYgX4TN99G91jdtFvY4y5tOMMBmFpv3PY21Pt7UrI9uAz+A2r7K+tL5RNde1rP3z2uJMJQgHECV%2FIEHwL0TyfB6EUp8xl9QZmvnDINc0nn4uX6rIQrYVALDIM1YR2lhKNwK0AuYp9oQmdWgY5gtQCKAAk7R6om8YAusa3EkQ6HQDt4g87GW3nOBASZFSEN3K1k10Q016vkYGY2UTjWehuNmRidt4OIAAZ9ZLbV+F30kd8YnAsvcQIOkH9AzAlKWTqECew2bPq%2FzO+JuehfWmGKvcoo6nd+lJgRfP1EGvvlB1ZUG6N6h8tdiqF+VA74GeoPlBLk+B6msS+qZbp+o1U16MP%2FkxYAKiLKGh+aGcD3z1BnYsIavyxnoXHM1oK8nURxzkAPxEOsNo+UbTO04rhqIdfEOFC1opOABLQkIF0oY+IQT%2F275KWBESR4OUhcBkMYCSM%2FaofXWWV9rO54wu0Epi8Fm9VwI3FcQhVadhNV4+w444y4x6OLDleRjhH293xANbPOVY0N%2FpEob00Q0mZz1SNwN0x4WvSTVams1pAy1PhjwQFQyOZPfvGJW8IlNbRKAFYXtvuh5he7SfKra8VXeG906P1Xzj56T24mLo23RC1jDbOd7DSyaxiEfcBiAl%2F2UWeetFwgXQicd06qBsuVmL6ejZyN7qMEzi288%2FNqOrav2pbRcmLSAQW+XOOqzoxr%2FBcCKkNY92xxxIMY8s4Fh9WrSRbdbupk0iEaw+Geq0AWpfY3bMgqCVzC1v+rK3GoLgJ9j9sqms4SZDxZ8wuI%2FL2SiaFNtOZAKR4tXZnX74kR+w5rYxc4zTRBNU%2FV%2F1fH0KG0GzlZnSFgqaS7qWwl0db8xee8kXtw9hGuGbIwoHLjujVZO3+XUE1S84AlFdJ2Cm6pWrZwmqhEe6Xmaf0aZMRmZoNC6tR3GeC9v8zkti6wU9DHdb4ypQJ%2FYVLpxhyClKxQntqijgnpTPRj%2FSWkhXkcDqdVye1xeCXhS7FwAoyMo1cM1viyoYfWjff+oXXlC33gdwPopBUFj+iuksQCRgFRo5MC2K7TlXkNk0b4JItDw20cJhHyKOQxCrZxG1ndmv9c%2FN7zSVUN88ms5tih4NWUQ0TEEHPWpcqY%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Dbf9356beccfee1049c4833372ece923e07573998&ECID-Context=1.0063MkcwN%5EQ8lnTLqAS4yY0007uS0002DA%3BkXjE')
+
+WebUI.setText(findTestObject('Page_Sign In/input_userid'), 'dev.one')
+
+WebUI.setEncryptedText(findTestObject('Page_Sign In/input_password'), 'UAHdl0l4+Bq3CwnfK3WMeA==')
+
+WebUI.click(findTestObject('Page_Welcome/svg_Navigator'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/OracleObjects/lnk_ManageOrders'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://ebmm-test.login.us2.oraclecloud.com/oam/server/obrareq.cgi?encquery%3Dao7fPfKPZKhO9fRGIAF7PHZplj9xky2MyyExXcLGWfGgWzoDXQYq52pSHkMXSJHeiOLXYTCbtfUHtkH1gr8OShdiYtu6Sl0wroCBHV0CaCuDG0wPXKKLsfwqXc8J2b4EuEi9XL7wwq2aVlLqE5XLLuK%2FVF733tfOzisnRvi7ZY7156uIsu%2Fwmgr37L1VR31quge%2F1zEoF8DtDAV2lweyrIM6sU5UQllv3VkJTqZuIzcu6rmI35Z1dYlKfhndtqsD50e%2Fku2JwB%2FYb7jbshLCvfJjjxiWyuwCDGk5L8MTOTTdT9FtmOQvIvyf3OgRdYNrrs9dyuDay95aqKkKwVo7ix0tuOokiLcZyibCj0+gWTlREBlHVrES5mJlOF%2FoH9wwJTodmX7018ZJakjXfeUJXJRS4MqtgLJQ0tBViAWQjOIKYh5IN0yK8IAVlLOqPfeWQuJl%2F3+Q4Tf4zrZJskFPyVf0YlIgfOHbz8qkxdcmA6NVruepWvPHT2o9hItv5cYlhJsON8%2F4Kk7VhIAy6izzUS%2FOoMKdTdVh28RbJaWt5z5UngChwmtbKlGfeGMUrvym3f%2FqpymwkIhuD5bIt2vST+NGILJ9vwjqpUCBkzWyiw0arKNyyCG9VISFM%2FdQsRHHz3M6I3f4hBSwtSon8pWAiG%2FvSx%2FDyHKxA%2Fs0ZB2zrG6MAD9geP01Qyd2XyslYSX1AUhRluNWXPAEMLGzrP6vD+XSRbPeigbJqEGX%2FZeSy9WMXU+aGLInnZMDD9CwhgINzm61DnK7fYlFPAXNPHqzylCG9BsehlgHmOumQyRmr3wi0qJBagbtnQqCloH8sAojLRmRzxgc53EpqV0eEr33cl24iEnTcqJN7wmsmOPIuG1K7rw02ucmSd28bWuADmV2+FnWDwBC5nh316J6mZE8pWDQw1WiyyTGlRDQ9jWKDLTwUsFxiX4Ds00z0N0niUL9yhnenRzxgMy3r4uwgQQFFydoWq8u3%2F2lQEqTJUMa9yuZpsfQGZ7RGAY%2FdRTDjHHJCG59cyJry+%2FHrB2zRxVb1jUIUXr4BR+dq90jAukWNRqAQIJ6uSzMMl1JJgE%2FZjUdYWX6QVGhhNIrp9Gb9AbIiZqozy2lpFXRmvKPhxbnRmMuGYiqO81qaDh+HXnnFt0MKQXACQfMZzMGbDunTb9y5e2+Tm3662R34CFrrKj+00yxcNGCM6ISN%2FTnbRFqybbZRJ+egN1UIOFkVX6+y9d4UB0bLWruDwqKYT8DtYVXbBezZ4a+nGVz0Qx27jGNTQ6q7HkGLwzUphJU8tJJ7dZwlIb4yiSwn7+e%2FZQyjkFcTaF9WpIrkgNZXHhc+mwumL0Nmtyo6Wq%2F9LGiroOGtryuLYHIMip8M2yUZtC5NqTM0B33uIwruZ3p8nt9chn53gYy01utkc70kgD7DRU7qBCdPOrUwmD3TblBklBEgZxJm4u7e2sokHTcjxhIO5t9MSaaQ8J0YjtiLUhIm+1z1boelPQ1fax%2FD1qUQkLhfxHjhPw6ikIs4t96jByYdXHzCuNDwIYtY1yjeIQ8C5L1cNwLt9dt3jCRdj2car7fgcrbEmjEyEUecOKgiJBWpvUYoa+YHF1eCmRDUvR9jREvyUbaF4bbdvacr7DjzDCffpOFOmjq1zf%2Fe5McKBllMncHswdJ%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Dc637c2810f9e82337f0e974ed7c1e41c6c3199d7&ECID-Context=1.0063MmhRN%5EO8lnTLqAS4yY0007uS00039Z%3BkXjE')
+
+WebUI.setText(findTestObject('Page_Sign In/input_userid'), 'dev.one')
+
+WebUI.setEncryptedText(findTestObject('Page_Sign In/input_password'), 'UAHdl0l4+Bq3CwnfK3WMeA==')
+
+WebUI.click(findTestObject('Page_Sign In/button_Sign In'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/OracleObjects/lnk_CreateOrder'))
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '2', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '2', true)
+
+WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_Supplier'), 'Mid')
+
+WebUI.click(findTestObject('Object Repository/OracleObjects/dd_Option_Midtown Computer Supplies 10001'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/OracleObjects/btn_Create'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://ebmm-test.login.us2.oraclecloud.com/oam/server/obrareq.cgi?encquery%3D61mhYJqXwjpxxgGBPNgzjlHt%2FdqwDMEfF9HCav9W+tyXFJZ8o2zz4niMhtXOXwLvUXdtaFuInx7MAci9iEegMjU4YUXooavpp21EISrhKeY457j7TabjVRWFAg+nBBWLmiJ7TRAz+EH7Qt1j2gwR3XBBIbaGmeG98j5w3YwAKV3jACWUcKFT+5os87FlWquRKLygFZt+ZxRJNoetcjMpdSrJ3cbZVnC0O%2FOeNrqX6gbi3QYcJEAmTrD89trWbyL6CoiqSUNIV4xp+xAGaMqmfVN%2FBtma1ZIMN6LlW8ALB26VfK4r0qmGZTgxHl+e+Pd1jx3PZzAf1T4RDVqukYEU7lUDAAopyDGWBqfxrtiH19yVr5uqQkg9HgCteg10FPbz6PC5BzAItGE36XDZQAYNFR+I2x+6IHns7qdkXUPozUlENhZ4H9vCLs30M9jKCQShf2r6OQZ84%2FAzzfYQrTx5N7bcsspSm9yEMLZl%2F+t9lnq0dgPUrx1QvJPmHaiAs%2Fa3ioD4WqFLcfrVARBAQeyibA4gd8H4GYk7VU3UrlDgN5habNeuBoGNZ+Jufl0VES2hTu7bqNkrEeeHi6bmLD2m+0kzFac2BSs0HmmgKSshJlpilTbOnBDGVbSgFbSdltO%2FVrLX68rFv0215QrdsytShL3ypiFff4N0BAgIq49geqExh3AtLQRTySxmvDl%2FBf9MIikECBY60fqunU%2Fx0DfOu2Tk0pS9tRdtJt5NXyZhn6C5BQItgQFPDFqqO94SwlViFnvHL5GEvNfdNhX36WfyrC4KEGYoF6CxvL0q7u5rIBlo6UL%2FWcKceAoPGZT+8I7WUiRHbgAtnvTGnfHKXlNQ7IU1lzfReG4j6QN%2FvpxqOi6sANpByfMOuuNboKnkueZcbw0a1Suc6yFMBCPPEOmTrJ9%2FHY87hOha1Hu6kb5ZfnKOv6g61EWO9is8mWdwePI%2Fk4lMwqOVnbqAcRnleJeDp1R3FCFdADJhnc2oXRopr+f4gMEl5uTy3b2y9NmOURie8aOOdRr8FyCVd9s+dTsSow+FdufpIK%2FXgCeygUH0GRgZCKbftnfyFaYdebPZU%2FR7Msy2pZRITQcSZ%2FEl%2FalcT49o2c678xJY9oEU7TlejjH2Q4mShh59j1+kcJJqsyAjFXKQdPl1AV9Oh9UgifXPZR8whlsOTJYNMrr0eWqdpdCQKT2jzB3akisTIRy7vslA1I8h5QGiNQ%2FqA7wi9mQ+xgctzb78n5uHmEo0pT0uuYRCojGfp5LF6ajc6GE6s0TXBZjLX1LsF6CVgG13WT4s+DR0PzwtmpJT8KnRAQKRNt78z6g1YtfK0LtWrxfpTKaHpQum%2FxuWU4hgqWrkSyKtsU9BFT7G832ClY734r3tff2mTxQvTztDn2HxFxE4q%2FCFJl3A4pZf2ezYoZH4%2F92a223IWjGRK9RmnZlpgZBumSZC1fyvVXHG9mcBF%2FzI2TY03R%2FzvY9i0pErjCBIrUiW9Lgtp6na6qFIIAjil4P3jWW+dGGpFIxui5jut0SrkVFLr6Y3g5RGe6P+EfeuijeYUd%2FUOK+dlBuGjq5NszMnbdqKK4aQj7Nai%2FD19pScNDxe4SH40nlH9H39qTz9eiCBbpqQX%2F2cqYY2634DNHf34bp0f4IM66lgPPHLP3gIFKEv%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3D6fb02a597816590a43838ec38d0bbaac5989a801&ECID-Context=1.0063MqKnC4U8lnTLqAS4yY0007uS0004Qc%3BkXjE')
+
+WebUI.setText(findTestObject('Page_Sign In/input_userid'), 'dev.one')
+
+WebUI.setEncryptedText(findTestObject('Page_Sign In/input_password'), 'UAHdl0l4+Bq3CwnfK3WMeA==')
+
+WebUI.click(findTestObject('Page_Sign In/button_Sign In'))
+
+WebUI.click(findTestObject('Object Repository/Page_Welcome/div_NavigatorSearchSearchClearSearchPersona_06cd1d'))
+
+WebUI.click(findTestObject('Object Repository/Page_Welcome/svg_Navigator'))
+
+WebUI.click(findTestObject('Object Repository/Page_Welcome/div_Purchase RequisitionsPurchase Requisiti_dfaaf5'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/Page_Welcome/a_Purchase Orders'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/Page_Overview - Purchase Orders - Oracle Fu_2141a8/a_Create Order'))
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '2', true)
+
+WebUI.setText(findTestObject('Object Repository/Page_Overview - Purchase Orders - Oracle Fu_2141a8/input__FOpt1_FOr10_FONSr20_FOTRaT0dynam10Supplier'), 
+    'm')
+
+WebUI.click(findTestObject('Object Repository/Page_Overview - Purchase Orders - Oracle Fu_2141a8/li_Midtown Computer Supplies 10001'))
+
+WebUI.click(findTestObject('Object Repository/Page_Overview - Purchase Orders - Oracle Fu_2141a8/button_Create'))
+
+WebUI.click(findTestObject('Page_Edit Document (Purchase Order) 325256 _a11538/img_FOpt1_FOr10_FONSr20MAt20AP1AT1_ATpcreateicon'))
+
+WebUI.setText(findTestObject('null'), 
+    'CD-REG-ITEM-01')
+
+WebUI.click(findTestObject('null'))
+

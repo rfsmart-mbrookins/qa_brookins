@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_PACK TEST COMPLY BOWIE-DICK THK34 IN L5 _8d1f9e</name>
+   <tag></tag>
+   <elementGuidId>1a1a7666-ed5b-4b46-8217-cf5142eec8c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr.gridHover > td:nth-of-type(9)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='lstScreen']/tbody/tr[2]/td[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>30d85f53-f70e-4af2-9572-12138904daa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PACK TEST COMPLY BOWIE-DICK THK3/4 IN L5 IN X W4 3/8 IN LEAD FREE EARLY WARNING SHEET</value>
+      <webElementGuid>213c3d08-75d5-408b-b033-74728ebb1f56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lstScreen&quot;)/tbody[1]/tr[@class=&quot;gridHover&quot;]/td[9]</value>
+      <webElementGuid>f386f547-a355-40d5-bc51-cdbc5651b83a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='lstScreen']/tbody/tr[2]/td[9]</value>
+      <webElementGuid>7a42b40a-5917-40b4-962e-03e051f43b9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[9]</value>
+      <webElementGuid>ed22740d-47cd-4592-a688-6f2a1c519428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'PACK TEST COMPLY BOWIE-DICK THK3/4 IN L5 IN X W4 3/8 IN LEAD FREE EARLY WARNING SHEET' or . = 'PACK TEST COMPLY BOWIE-DICK THK3/4 IN L5 IN X W4 3/8 IN LEAD FREE EARLY WARNING SHEET')]</value>
+      <webElementGuid>aa223157-cf37-41a7-8b4e-6452a471c919</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

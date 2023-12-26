@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_SuccessfulPrintRequest</name>
+   <tag></tag>
+   <elementGuidId>19ab5b25-8a6d-46af-9b13-6dd2d8fbba6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr.gridHover > td:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='lstScreen']/tbody/tr[2]/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>4a2e54be-c8f5-4da5-ad55-f15783e79b4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SuccessfulPrintRequest</value>
+      <webElementGuid>93367bc4-30c5-4867-b304-f415b87c73cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lstScreen&quot;)/tbody[1]/tr[@class=&quot;gridHover&quot;]/td[2]</value>
+      <webElementGuid>95105a6f-dc95-46f7-9cfc-61e0b6e82dd5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='lstScreen']/tbody/tr[2]/td[2]</value>
+      <webElementGuid>9096ce97-3746-4713-a345-f40420e41894</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>bde9d717-6b18-4144-a547-f179da5ae901</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'SuccessfulPrintRequest' or . = 'SuccessfulPrintRequest')]</value>
+      <webElementGuid>8eb73d33-6c07-449c-a69e-b87cb277b7e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

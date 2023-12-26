@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_svg-outline</name>
+   <tag></tag>
+   <elementGuidId>4d19b43d-2543-45f0-b691-928afd31f6ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>svg.suiicon.flat-tabs-overflow-right-svg.svg-bkgd05 > path.svg-outline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>337209fd-068e-47d6-a5e9-f0b246470bcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svg-outline</value>
+      <webElementGuid>883dca36-94ad-4362-9cd5-2e4ca0b0cefc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M16 13.8L26.5 24 16 34.2a1.6 1.6 0 0 0 0 2.2l1.2 1.1a1.6 1.6 0 0 0 2.2 0L33 24 19.5 10.5a1.6 1.6 0 0 0-2.2 0L16 11.6a1.6 1.6 0 0 0 0 2.2z</value>
+      <webElementGuid>01bc3048-9e24-4d35-9581-536f70a92ad2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;clusters-right-nav&quot;)/svg[@class=&quot;suiicon flat-tabs-overflow-right-svg svg-bkgd05&quot;]/path[@class=&quot;svg-outline&quot;]</value>
+      <webElementGuid>e5073587-a298-4c3e-9a72-856b7110e0aa</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dd_ProBU</name>
+   <tag></tag>
+   <elementGuidId>7f3c3221-c0d8-4afa-80a9-7f406bea85eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;_FOpt1:_FOr1:0:_FONSr2:0:MAt3:0:pt1:Purch1:0:AP1:r1:0:q1:value10::content&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#_FOpt1\:_FOr1\:0\:_FONSr2\:0\:MAt3\:0\:pt1\:Purch1\:0\:AP1\:r1\:0\:q1\:value10\:\:content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dd_ReqBU</name>
+   <tag></tag>
+   <elementGuidId>6ef80f26-23e7-498e-a7ed-eefa3b5f2105</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='_FOpt1:_FOr1:0:_FONSr2:0:_FOTRaT:0:dynam1:0:ProcurementBu::content']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
