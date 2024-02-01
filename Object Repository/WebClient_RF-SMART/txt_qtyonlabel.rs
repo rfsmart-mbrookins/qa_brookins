@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Receiving05</name>
+   <name>txt_qtyonlabel</name>
    <tag></tag>
-   <elementGuidId>3b24ed58-4ff8-4028-b8d7-03fc87ff06b4</elementGuidId>
+   <elementGuidId>26cb55b1-98af-40f9-a2f6-1c965b6f4392</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Receiving05_SupLot</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;Receiving05_Default&quot;]</value>
+         <value>//input[@id='txt']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

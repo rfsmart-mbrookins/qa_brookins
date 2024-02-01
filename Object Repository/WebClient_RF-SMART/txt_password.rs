@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txtPassword']</value>
+         <value>//*[@id=&quot;Password&quot;] | //input[@id='txtPassword']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>15eec19a-25fd-4941-b804-bdf5c8ab44d4</webElementGuid>
+      <webElementGuid>0589bdc6-18f0-4bff-bdf8-449239c5031a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>txtPassword</value>
-      <webElementGuid>d66fb52a-31ed-432d-b6aa-3b794f176725</webElementGuid>
+      <webElementGuid>85536ee4-cb9f-4f35-94be-83f5a1e3f8fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>c3f28c86-96ab-4408-9c46-4b91740d5e7a</webElementGuid>
+      <webElementGuid>2da142e6-f2e4-4ebd-840b-4fe41019bf23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtPassword</value>
-      <webElementGuid>c183b44a-8c3d-4f2c-a085-8b2250af8283</webElementGuid>
+      <webElementGuid>506ab572-5111-4817-bb73-e1aae8a26b89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input_text webbarcode</value>
-      <webElementGuid>7e6f7ee1-c76b-4173-8301-6c6282d680ba</webElementGuid>
+      <webElementGuid>423a9e34-3f4a-490b-b318-358859c6ab99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return runScript(event)</value>
-      <webElementGuid>145e647f-6701-4bd8-9a37-d0e171c58f71</webElementGuid>
+      <webElementGuid>0aeadb94-b21f-4857-8826-15ac386da972</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>dditem</name>
       <type>Main</type>
       <value>Password</value>
-      <webElementGuid>848ada08-3517-4dc5-8f9e-0bca53e127e7</webElementGuid>
+      <webElementGuid>d42f9d0f-2c2d-40b3-a379-a4a55c10f13c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Password</value>
-      <webElementGuid>33796184-c848-49bb-929f-4c3cf521007f</webElementGuid>
+      <webElementGuid>8e43694a-238a-4ed4-b0db-9f974003dec3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtPassword&quot;)</value>
-      <webElementGuid>cf660651-80b0-41e1-8178-6a6194bd6a6d</webElementGuid>
+      <webElementGuid>a6421a91-f396-4d37-b649-3e69ad2374fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtPassword']</value>
-      <webElementGuid>b31daec1-aae5-4b90-9f63-5f3236be30de</webElementGuid>
+      <webElementGuid>a44f564e-71ad-4d08-851a-0ad947076875</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='application']/article[2]/dl/dd/input</value>
-      <webElementGuid>9a72ae42-81c8-4ad4-a1eb-9a1cca2af20b</webElementGuid>
+      <webElementGuid>7a3c0143-e355-4bf9-9ce7-cb840f657bea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//article[2]/dl/dd/input</value>
-      <webElementGuid>d474e4a3-96c0-41cb-8825-fc7def5cccdb</webElementGuid>
+      <webElementGuid>d7d52a73-0447-44ce-83b9-0a4d8f699aa8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'txtPassword' and @type = 'password' and @id = 'txtPassword' and @placeholder = 'Password']</value>
-      <webElementGuid>9b00621a-0b85-4708-923a-84b0c3862bab</webElementGuid>
+      <webElementGuid>f14c2931-47f7-494f-9a6d-202c768afcc4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

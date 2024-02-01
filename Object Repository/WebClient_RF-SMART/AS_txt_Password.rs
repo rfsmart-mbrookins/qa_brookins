@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Receiving05</name>
+   <name>AS_txt_Password</name>
    <tag></tag>
-   <elementGuidId>3b24ed58-4ff8-4028-b8d7-03fc87ff06b4</elementGuidId>
+   <elementGuidId>884b30e6-116c-4f46-bd78-1636b0d446d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Receiving05_SupLot</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;Password&quot;] | //input[@id='txtPassword']</value>
       </entry>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Receiving05_Default&quot;]</value>
+         <key>CSS</key>
+         <value>#Password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_Label Printer</name>
+   <name>option_LabelPrinter</name>
    <tag></tag>
    <elementGuidId>497f00ce-160c-4c9f-bb24-9bbec73a45ec</elementGuidId>
    <selectorCollection>

@@ -19,18 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 //Open Browser
 WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-//Navigate to URL
-WebUI.navigateToUrl('https://icsus-qa01.oraclecloud.rfsmart.com:8443/webclient/')
+//Call PROFILE
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-//Enter Username
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Username'), 'dev.one')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Username'),GlobalVariable.UserName)
 
-//Enter Password
-WebUI.setEncryptedText(findTestObject('Object Repository/WebClient_RF-SMART/txt_password'), 'UAHdl0l4+Bq3CwnfK3WMeA==')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Password'),GlobalVariable.Password)
 
-//Click Enter button
-WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/btn_Enter'))
+//Login button
+WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/btn_login'))
 
 //Select Workflow Suite
 WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/lnk_QA Regression'))
@@ -81,16 +80,16 @@ WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_UOM'), 'E
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_UOM'), Keys.chord(Keys.ENTER))
 
 //Enter label quantity
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_labelqty'), '1')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_qtyoflabels'), '1')
 
 //Enter key
-WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_labelqty'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_qtyoflabels'), Keys.chord(Keys.ENTER))
 
 //Click List button
 WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/btn_List'))
 
 //Select Printer from list
-WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/option_Label Printer'))
+WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/option_LabelPrinter'))
 
 //Click Exit link
 WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/btn_Exit'))

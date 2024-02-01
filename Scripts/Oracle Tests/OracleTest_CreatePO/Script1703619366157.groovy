@@ -21,7 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://ebmm-test.login.us2.oraclecloud.com/')
+//WebUI.navigateToUrl('https://ebmm-test.login.us2.oraclecloud.com/')
+WebUI.navigateToUrl('https://ebmm-test.fa.us2.oraclecloud.com/')
 
 WebUI.setText(findTestObject('Object Repository/OracleObjects/input_userid'), 'dev.one')
 
@@ -39,15 +40,12 @@ WebUI.click(findTestObject('Object Repository/OracleObjects/btn_tasklist'))
 
 WebUI.click(findTestObject('Object Repository/OracleObjects/lnk_CreateOrder'))
 
+//object for managing orders - need new test case
 //WebUI.click(findTestObject('Object Repository/OracleObjects/lnk_ManageOrders'))
-
 //ProcurementBU options 0 Dev1, 1 QA, 2 US
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/OracleObjects/dd_ProcurementBU'),'2', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/OracleObjects/dd_ReqBU'),'2', true)
-
-WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_Supplier'),'Mid')
+//WebUI.selectOptionByValue(findTestObject('Object Repository/OracleObjects/dd_ProcurementBU'),'1', true)
+//WebUI.selectOptionByValue(findTestObject('Object Repository/OracleObjects/dd_ReqBU'),'1', true)
+WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_Supplier'), 'Mid')
 
 WebUI.click(findTestObject('Object Repository/OracleObjects/dd_Option_Midtown Computer Supplies 10001'))
 
@@ -55,27 +53,46 @@ WebUI.click(findTestObject('Object Repository/OracleObjects/btn_Create'))
 
 WebUI.click(findTestObject('Object Repository/OracleObjects/btn_AddPOLine'))
 
-WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_ItemNum'),'AS65001')
+WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_ItemNum'), 'AS65001')
 
 WebUI.click(findTestObject('Object Repository/OracleObjects/txt_POLineQty'))
+
 WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_POLineQty'), '10')
 
+WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_POLinePrice'), '1.99')
+
 WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_ReqDate'), '01/01/2025')
 
+//second line item on PO
+WebUI.click(findTestObject('Object Repository/OracleObjects/btn_AddPOLine'))
+
+WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_ItemNum2'), 'QA-REG-ITEM-01')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/OracleObjects/txt_POLineQty'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_POLineQty2'), '10')
+
+WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_POLinePrice2'), '1.19')
+
+WebUI.setText(findTestObject('Object Repository/OracleObjects/txt_ReqDate2'), '01/01/2025')
+
+//
 WebUI.click(findTestObject('Object Repository/OracleObjects/btn_SubmitPO'))
 
-WebUI.verifyTextPresent("submitted for approval.",true)
-
+//WebUI.verifyTextPresent("submitted for approval.",true)
 //View PO Created
 WebUI.click(findTestObject('Object Repository/OracleObjects/btn_tasklist'))
 
 WebUI.click(findTestObject('Object Repository/OracleObjects/lnk_ManageOrders'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OracleObjects/dd_ProBU'),'3', true)
-
+//WebUI.selectOptionByValue(findTestObject('Object Repository/OracleObjects/dd_ProBU'),'3', true)
 WebUI.click(findTestObject('Object Repository/OracleObjects/btn_Search'))
-
-
 

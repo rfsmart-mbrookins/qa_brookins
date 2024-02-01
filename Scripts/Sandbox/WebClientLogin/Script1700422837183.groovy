@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Open Browser
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://icsus-qa01.oraclecloud.rfsmart.com:8443/webclient/')
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Username'), 'dev.one')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/WebClient_RF-SMART/txt_password'), 'UAHdl0l4+Bq3CwnfK3WMeA==')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Username'),GlobalVariable.UserName)
 
-WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/btn_Enter'))
-
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Password'),GlobalVariable.Password)
 

@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Receiving05</name>
+   <name>txt_POLinePrice2</name>
    <tag></tag>
-   <elementGuidId>3b24ed58-4ff8-4028-b8d7-03fc87ff06b4</elementGuidId>
+   <elementGuidId>3b88b994-7854-4711-953a-8be15e68f129</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#Receiving05_SupLot</value>
+         <value>#_FOpt1\:_FOr1\:0\:_FONSr2\:0\:MAt2\:0\:AP1\:AT1\:_ATp\:Lines\:1\:UnitPrice\:\:content</value>
       </entry>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Receiving05_Default&quot;]</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

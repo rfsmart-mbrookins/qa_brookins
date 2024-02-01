@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_labelqty</name>
+   <name>btn_login</name>
    <tag></tag>
-   <elementGuidId>fbe30918-088a-4406-b0c9-ce5fe774eb56</elementGuidId>
+   <elementGuidId>fa0e11ef-6bdd-4b30-a9bf-02ff6c4841c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#txt</value>
+         <value>#btnEnter</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txt']</value>
+         <value>//a[@id='btnEnter'] | /html/body/div[2]/div/div[2]/div/div/div[2]/form/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>7fbf5ed4-45f8-45e4-ab01-148d70f6265e</webElementGuid>
+      <value>a</value>
+      <webElementGuid>5d1a1d08-a330-41f9-b605-f210efb97921</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>href</name>
       <type>Main</type>
-      <value>txt</value>
-      <webElementGuid>e860a7dc-15a6-4b34-930a-a99bd2fbf4fc</webElementGuid>
+      <value>javascript:{}</value>
+      <webElementGuid>bf76413b-e1e2-48d5-98c9-db2c06118b09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txt</value>
-      <webElementGuid>6d17f3ee-70dd-42c4-b7fe-b9d88a986619</webElementGuid>
+      <value>btnEnter</value>
+      <webElementGuid>020d1c98-7bc2-40df-a7b8-8fe403a2cc56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>document.getElementById('Key').value=13;rfssubmit(); return false;</value>
+      <webElementGuid>ca0899a8-7ff2-4f05-95ea-d149a7ec8daa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_text webbarcode</value>
-      <webElementGuid>46f891f5-119f-48eb-b16a-607aad2395af</webElementGuid>
+      <value>contextbutton</value>
+      <webElementGuid>eb49f7aa-7cfa-4d76-904e-e702e45f614b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>text</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>3f5b0744-7e9d-4c6e-83dd-69a48a0405d3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>step</name>
-      <type>Main</type>
-      <value>any</value>
-      <webElementGuid>11ea203c-d9c5-48b0-8602-b5fa55dbf1eb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Quantity of labels</value>
-      <webElementGuid>4b8a08ed-913e-4e2a-9157-b9b90b8d488f</webElementGuid>
+      <value>Enter</value>
+      <webElementGuid>7dd2c019-c566-4bb4-9d28-3591cada7e79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt&quot;)</value>
-      <webElementGuid>c8c62f90-954d-4d2c-8199-385f9f7ebddb</webElementGuid>
+      <value>id(&quot;btnEnter&quot;)</value>
+      <webElementGuid>905f0cbc-5bcd-4d81-ad1d-dfec97661dbd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt']</value>
-      <webElementGuid>ae594424-9eb0-4b96-9fbe-175340b02db8</webElementGuid>
+      <value>//a[@id='btnEnter']</value>
+      <webElementGuid>e93ce8da-e031-4fc5-ba3b-bfd20a1f97d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='application']/article[2]/dl/dd/input</value>
-      <webElementGuid>2b82a1a4-559f-4b11-86bc-78f5f5e716a8</webElementGuid>
+      <value>//section[@id='application']/article[2]/dl/dd[2]/span/a</value>
+      <webElementGuid>5a46ab48-4b07-4d80-8137-33d0aae5b917</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Enter')]</value>
+      <webElementGuid>a1c3b5b8-4987-47c0-9394-7fee4ea07cf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:{}')]</value>
+      <webElementGuid>8cdba16d-ec7e-44a9-8e67-8394d5408336</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//dd/input</value>
-      <webElementGuid>f7f40d6c-6f42-4155-9886-f05c29d9206b</webElementGuid>
+      <value>//a</value>
+      <webElementGuid>e1fbfb88-f8ba-4899-9c84-9ba19550ecb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'txt' and @id = 'txt' and @type = 'number' and @placeholder = 'Quantity of labels']</value>
-      <webElementGuid>576f586b-c363-431f-ba69-e81a85c3fe3b</webElementGuid>
+      <value>//a[@href = 'javascript:{}' and @id = 'btnEnter' and (text() = 'Enter' or . = 'Enter')]</value>
+      <webElementGuid>625114f5-b64a-4167-af23-72195a55cfa4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

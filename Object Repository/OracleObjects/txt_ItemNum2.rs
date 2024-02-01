@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Receiving05</name>
+   <name>txt_ItemNum2</name>
    <tag></tag>
-   <elementGuidId>3b24ed58-4ff8-4028-b8d7-03fc87ff06b4</elementGuidId>
+   <elementGuidId>a16a9821-e0ac-4692-bb56-b9c8be1b3e4a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#Receiving05_SupLot</value>
+         <value>#_FOpt1\:_FOr1\:0\:_FONSr2\:0\:MAt2\:0\:AP1\:AT1\:_ATp\:Lines\:1\:Item\:\:content</value>
       </entry>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Receiving05_Default&quot;]</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

@@ -17,20 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 //Open Browser
 WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-//Navigate to URL
-WebUI.navigateToUrl('https://icsus-qa01.oraclecloud.rfsmart.com:8443/webclient/')
+//Call PROFILE
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-//Enter Username
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Username'), 'dev.one')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Username'),GlobalVariable.UserName)
 
-//Enter Password
-WebUI.setEncryptedText(findTestObject('Object Repository/WebClient_RF-SMART/txt_password'), 'UAHdl0l4+Bq3CwnfK3WMeA==')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Password'),GlobalVariable.Password)
 
-//Click Enter button
-WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/btn_Enter'))
+//Login button
+WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/btn_login'))
 
 //Select Workflow Suite
 WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/lnk_QA Regression'))
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/lnk_QA Regressi
 WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/lnk_Account Alias Issue 02'))
 
 //Enter Org
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), '002')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), '001')
 
 //Click Enter key
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
@@ -51,7 +51,7 @@ WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), 'U
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
 
 //Enter Item Number
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_collectItemNumber'), 'AS65001')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_collectItemNumber'), 'QA-REG-ITEM-01')
 
 //Enter key
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_collectItemNumber'), Keys.chord(Keys.ENTER))
@@ -81,10 +81,10 @@ WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_UOM'), 'E
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_UOM'), Keys.chord(Keys.ENTER))
 
 //Enter label quantity
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_labelqty'), '1')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_qtyoflabels'), '1')
 
 //Enter key
-WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_labelqty'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_qtyoflabels'), Keys.chord(Keys.ENTER))
 
 //Click List button
 WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/btn_List'))

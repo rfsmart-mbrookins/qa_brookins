@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Receiving05</name>
+   <name>lnk_PickConfirm</name>
    <tag></tag>
-   <elementGuidId>3b24ed58-4ff8-4028-b8d7-03fc87ff06b4</elementGuidId>
+   <elementGuidId>955ab0f6-9657-4efc-b2ce-f32dd6143c07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Receiving05_SupLot</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;Receiving05_Default&quot;]</value>
+         <value>//*[@id=&quot;PickConfirm_Default&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

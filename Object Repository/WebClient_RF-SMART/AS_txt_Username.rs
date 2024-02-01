@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Receiving05</name>
+   <name>AS_txt_Username</name>
    <tag></tag>
-   <elementGuidId>3b24ed58-4ff8-4028-b8d7-03fc87ff06b4</elementGuidId>
+   <elementGuidId>0d0d71ed-c9a5-4083-9c70-af2eb1524815</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Receiving05_SupLot</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;Username&quot;] | //input[@id='txtUser']</value>
       </entry>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Receiving05_Default&quot;]</value>
+         <key>CSS</key>
+         <value>#Username</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

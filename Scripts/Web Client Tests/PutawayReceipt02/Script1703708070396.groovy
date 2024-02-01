@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 //Open Browser
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
@@ -35,8 +34,8 @@ WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/btn_login'))
 //Select Workflow Suite
 WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/lnk_QA Regression'))
 
-//Select link for Receiving 05
-WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/lnk_Receiving05'))
+//Select Workflow 
+WebUI.click(findTestObject('Object Repository/WebClient_RF-SMART/lnk_Putaway02'))
 
 //Enter Org
 WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), '002')
@@ -44,20 +43,14 @@ WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), '0
 //Click Enter key
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
 
-//Enter Purchase Order Number
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_CollectOrder'), 'RFS100005')
+//Enter Receipt Number
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_Receipt'), '2844')
 
 //Click Enter key
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
 
-//Enter Packing Slip Number
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_CollectPackingSlip'), '8675309')
-
-//Click Enter key
-WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
-
-//Enter Item Number
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_CollectItemNumber'), 'AS65001')
+//Enter Item
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_CollectItemNumber'), '8009')
 
 //Click Enter key
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
@@ -69,22 +62,23 @@ WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_qty'), '1
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
 
 //Enter Unit of Measure
-WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_UOM'), 'Bx 4')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_UOM'), 'Ea')
 
 //Click Enter key
 WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
 
+
 //Enter Subinventory
-//WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_subinventory'), 'Stores')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_subinventory'), 'Stores')
 
 //Click Enter key
-//WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
 
 //Enter Locator
-//WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_locator'), '1.1.1.1')
+WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_locator'), '1.1.1.1')
 
 //Click Enter key
-//WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/WebClient_RF-SMART/txt_org'), Keys.chord(Keys.ENTER))
 
 //Enter Quantity of Labels
 WebUI.setText(findTestObject('Object Repository/WebClient_RF-SMART/txt_qtyoflabels'), '1')

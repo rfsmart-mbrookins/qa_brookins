@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_POLineQty</name>
+   <name>txt_POLinePrice</name>
    <tag></tag>
-   <elementGuidId>88b04401-b012-4c5c-a7c5-fab06713d247</elementGuidId>
+   <elementGuidId>5651bc51-7a42-4936-9478-99bdba6441fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#_FOpt1\:_FOr1\:0\:_FONSr2\:0\:MAt2\:0\:AP1\:AT1\:_ATp\:Lines\:0\:s5\:Quantity\:\:content</value>
+         <value>#_FOpt1\:_FOr1\:0\:_FONSr2\:0\:MAt2\:0\:AP1\:AT1\:_ATp\:Lines\:0\:UnitPrice\:\:content</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:AP1:AT1:_ATp:Lines:0:s5:Quantity::content&quot;]</value>
+         <value>//*[@id=&quot;_FOpt1:_FOr1:0:_FONSr2:0:MAt3:0:AP1:AT1:_ATp:Lines:0:UnitPrice::content&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Receiving05</name>
+   <name>lnk_Putaway02</name>
    <tag></tag>
-   <elementGuidId>3b24ed58-4ff8-4028-b8d7-03fc87ff06b4</elementGuidId>
+   <elementGuidId>2100bfa1-4b4b-4699-b90b-b602d0ec59b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Receiving05_SupLot</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;PutAwayReceipt02_Default&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Receiving05_Default&quot;]</value>
+         <key>CSS</key>
+         <value>#PutAwayReceipt02_Default</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
