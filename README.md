@@ -1,2 +1,2 @@
-# qa_brookins
+# Katalon_Automation
 GitHub QA Repository
